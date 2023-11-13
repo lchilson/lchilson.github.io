@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "EHQDZ3LI1MQqLLxooZqjsn5jIEAm3+IPsaNWNZn/kmqpg6MGyDYxHq7IHtOtZV4TYpl3QTv4pdxkqSAaJqG0YA==",
+  "dgSpecHash": "82V9BwNnKz+ug1u6TdK6JQTZYxp1YUjQTck1Hb7BghhpzjiHn+ciJHdrsObRFDVd5aguTdY0AKJBMDfCLs/y9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\louis\\OneDrive\\Documents\\GitHub\\lchilson.github.io\\microservice\\frontend\\frontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\louis\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\microsoft.tye.extensions.configuration\\0.10.0-alpha.21420.1\\microsoft.tye.extensions.configuration.0.10.0-alpha.21420.1.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

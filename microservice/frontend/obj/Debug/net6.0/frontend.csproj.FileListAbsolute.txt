@@ -24,3 +24,5 @@ C:\Users\louis\OneDrive\Documents\GitHub\lchilson.github.io\microservice\fronten
 C:\Users\louis\OneDrive\Documents\GitHub\lchilson.github.io\microservice\frontend\obj\Debug\net6.0\frontend.pdb
 C:\Users\louis\OneDrive\Documents\GitHub\lchilson.github.io\microservice\frontend\obj\Debug\net6.0\frontend.genruntimeconfig.cache
 C:\Users\louis\OneDrive\Documents\GitHub\lchilson.github.io\microservice\frontend\obj\Debug\net6.0\ref\frontend.dll
+C:\Users\louis\OneDrive\Documents\GitHub\lchilson.github.io\microservice\frontend\bin\Debug\net6.0\Microsoft.Tye.Extensions.Configuration.dll
+C:\Users\louis\OneDrive\Documents\GitHub\lchilson.github.io\microservice\frontend\obj\Debug\net6.0\frontend.csproj.CopyComplete
