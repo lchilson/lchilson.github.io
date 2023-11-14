@@ -9,7 +9,7 @@ class:
 # Architects and the Architecture Domain
 ### Talk 2
 
-Are you a developer in a shop with an enterprise staff principal architect? Yeah, titles get crazy. Hopefully, this will guide you to the "Correct" architect for your goals.
+
 
 ---
 
@@ -24,6 +24,11 @@ Any architect, regardless of title, can fall into one of these groups.
 ## Architectural Challenges
 
 How many of us have dealt with an architect proposing an outdated solution based on methodologies that have proven ineffective?
+or
+Something bleeding edge that gets all the devs stoked about working with it only to find the learning curve so high its just not feasible given time and cost?
+--really hate when that happens
+
+Maybe someone in the middle? thats the sweet spot..
 
 > **TALKING POINT**: This may sound like digging for dirt on architects! Let's segue into the next slide.
 
@@ -31,15 +36,32 @@ How many of us have dealt with an architect proposing an outdated solution based
 
 ## The Pain of Architecture
 
-In technology, continuous learning and adaptation are crucial. Any perceived decline in effectiveness might relate more to the challenges of keeping pace with technology, not a decline in capabilities.
+In technology, continuous learning and adaptation are crucial. Any perceived decline in effectiveness might relate more to the challenges of keeping pace with technology, not a decline in capabilities. Even the latest and greatest shiney toy is bound to have a security flaw.
 
-> **TALKING POINT**: Lots of blame, no love!Tech changes FAST!. Examples? Devs get instant feedback; architects often wait in suspense for their next steps to prove successful.
+---
+## Docker
+I personaly in my shop have adviocated for docker since day 1! but as a developer i only saw the new and shiney. i only wanted to use it to benifit the company! Its what i still belive but have learned over time.
 
 ---
 
+## What the architects saw ...
+
+1. **Container Breakouts:** 
+2. **Kernel Exploits:** 
+3. **Image Security:** 
+4. **Docker Daemon API Security:** 
+5. **Network Security:** 
+6. **Resource Limitation:** 
+7. **Secret Management:** 
+8. **Logging and Auditing:** 
+---
+
+
+
+
 ## Where They Shine: Risk Management
 
-Non-coding architects have a broad skill set, understanding the impact of new service components on the system. They excel in anticipating and mitigating risks.
+Architects have a broad skill set, understanding the impact of new service components on the system. They excel in anticipating and mitigating risks.
 
 > **Example**: Foreseeing implications of a new system performing mass updates during another system's critical processes.
 

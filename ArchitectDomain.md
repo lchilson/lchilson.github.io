@@ -1,34 +1,52 @@
----
-marp: true
-theme: default
-class: 
-  - lead
-  - invert
----
-
-
+Talking Points
 
 
 
 ### Architects and the Architecture Domain - talk 2
-Are you a developer in a shop with a enterprise staff principle architect? yeah titles get crazy.
-hopefully this will guide you to the "Correct" architect for your goals.
 
-Any architect of any title can fall into one of these groups- **TALKING POINT**this is opinion
+Any architect of any title can fall into one of these groups
+
+**TALKING POINT** this is opinion
 
 
-How many of us have dealt with an architect who has proposed some ancient solution based on methodolgies that have been proven innefective...
-**TALKING POINT** tone sounds like im digging for dirt on architects! - segway into next slide
+
 
 
 ## Pain of architecture
-In the field of technology, continuous learning and adaptation are crucial due to the rapid evolution of technologies. Any perceived decline in effectiveness might be more related to the challenges of keeping pace with these changes, rather than a decline in capabilities. It's important to consider other factors like the evolving nature of technology, the increasing complexity of systems, and changes in educational or training approaches that might affect the skill sets of professionals over time.
+Everything is movig so fast technology. Everyone has a pain point they can recall.
+.Net core 1 to 2..then to 2.1...and2.2 and then finally...3.1. Slightly painful upgrades
 
-**TALKING POINT** Lotsa blame no love! - examples. devs get the instant feedback loop what the did works! architects usually get an ulcer waiting to find out the next steps work..
+Angualrjs to angualr? Heck Angualr 1-8 i cant recall an upgrade that didnt invlve a code change.
+
+maybe next.js? the breaks dont just happen in nextjs lib. you have to account for node versions npm and react at its base not even gonna think about packages.. same issue as angualr.. nightmares..
+
+maybe we can all recall the reasons we know have a package version manager for a packag manager.....
+
+if you didnt know you can just pretend you never heard something like this before
+ nvm npm
+
+**TALKING POINT s** 
+1. **Container Breakouts:** Initially, Docker containers weren't as isolated as virtual machines. This led to concerns about a process inside a container potentially breaking out and gaining access to the host system or other containers. This was a significant risk, especially in multi-tenant environments where different users' containers might be running on the same host.
+
+2. **Kernel Exploits:** Docker containers share the host's kernel. Any vulnerabilities in the host's kernel could potentially be exploited by a malicious container to gain elevated privileges. This was particularly concerning because any exploit that affected the kernel could impact all containers on the host.
+
+3. **Image Security:** Early on, Docker did not have robust mechanisms for ensuring the integrity and authenticity of container images. This raised the possibility of pulling and running malicious images from Docker registries, whether inadvertently or through targeted attacks.
+
+4. **Docker Daemon API Security:** The Docker daemon runs with root privileges, and early versions of Docker had less stringent controls over who could access the Docker API. Unauthorized access to this API could lead to a wide range of security breaches.
+
+5. **Network Security:** Network configuration and isolation were also areas of concern. In the early stages, Docker's default networking modes could inadvertently expose container services or lead to insufficient network isolation between containers.
+
+6. **Resource Limitation:** Without proper resource limitations, a container could potentially consume excessive system resources, leading to denial-of-service (DoS) on the host system or affecting other containers.
+
+7. **Secret Management:** Early Docker did not have a built-in mechanism for secret management, which made it challenging to securely store and manage sensitive information like passwords and API keys within containers.
+
+8. **Logging and Auditing:** Initially, Docker lacked comprehensive logging and auditing features, making it harder to track unauthorized or malicious activities within containers.
+
+Over time, Docker and the container ecosystem have evolved significantly to address these and other security concerns. Features like enhanced container isolation, improved image signing and verification, more secure network configurations, resource limits, and better auditing and logging capabilities have greatly improved Docker's security posture.
 
 
 **Where They Shine: Risk Management**  
-Beyond just technical stack considerations, non-coding architects have a broad skill set that allows them to understand how new service components might impact the system as a whole. They excel in scenarios where there's a need to anticipate and mitigate risks, such as adding new features that might overload a database server. For instance, they can foresee the implications of a new system performing mass updates during another system's critical processes, allowing for better risk mitigation.
+Beyond just technical stack considerations, Architects have a broad skill set that allows them to understand how new service components might impact the system as a whole. They excel in scenarios where there's a need to anticipate and mitigate risks, such as adding new features that might overload a database server. For instance, they can foresee the implications of a new system performing mass updates during another system's critical processes, allowing for better risk mitigation.
 
 #### Types of Architects
 While titles may vary across companies, the roles of architects generally fall into similar categories.
